@@ -56,10 +56,11 @@ namespace PEDL_Guia2_Ejercicio5
         private void timer1_Tick(object sender, EventArgs e)
         {
             timer1.Stop(); //Detenemos el timer
-            primerclick.ForeColor = primerclick.BackColor; //Color de fondo click 1
+            /*primerclick.ForeColor = primerclick.BackColor; //Color de fondo click 1
             segundoclick.ForeColor = segundoclick.BackColor; //Color de fondo click 2
             primerclick = null; //Retorna el primer click a null
             segundoclick = null; //Retorna el segundo click a null
+            */
         }
 
         private void label1_Click(object sender, EventArgs e)
